@@ -13,4 +13,23 @@ import java.util.*;
  */
 public class Cliente {
     
+    String nombre;
+    int dni;
+    List<Orden> ordenes;
+    
+    
+    public Cliente (String nombre, int dni) {
+    
+    this.nombre=nombre;
+    this.dni=dni;
+
+    }
+
+    public String getNombre (){
+    
+    return nombre;
+        
+    }
+
+    
 }
